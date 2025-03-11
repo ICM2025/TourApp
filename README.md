@@ -73,7 +73,7 @@
 ---
 
 ## 📬 Contacto y Contribución
-📩 Si deseas contribuir o tienes alguna sugerencia, contáctanos en [correo@example.com](mailto:correo@example.com)  
+📩 Si deseas contribuir o tienes alguna sugerencia, contáctanos en [cevargas@javeriana.edu.co](mailto:cevargas@javeriana.edu.co)  
 📌 Para reportar problemas, usa la sección de [Issues](https://github.com/usuario/TourApp/issues) en GitHub.
 
 💡 **¡Explora el mundo con TourApp! 🌎✈️**
