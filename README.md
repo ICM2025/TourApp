@@ -24,7 +24,7 @@
 
 ### 📥 Clonar el Repositorio
 ```bash
- git clone https://github.com/usuario/TourApp.git
+ [git clone https://github.com/usuario/TourApp.git](https://github.com/ICM2025/TourApp.git)
 ```
 
 ### ▶️ Ejecutar la Aplicación en Android Studio
