@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:orientation="vertical"
@@ -26,72 +27,42 @@
 
     <Button
         android:id="@+id/Ingresar"
-        android:layout_width="150dp"
-        android:layout_height="55dp"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
         android:textSize="18dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="80dp"
         android:layout_gravity="center"
         android:backgroundTint="@android:color/black"
         android:text="Ingresar" />
 
     <Button
         android:id="@+id/CrearCuenta"
-        android:layout_width="190dp"
+        android:layout_width="250dp"
         android:layout_height="60dp"
         android:textSize="18dp"
-        android:layout_margin="15dp"
+        android:layout_marginTop="30dp"
         android:layout_gravity="center"
         android:backgroundTint="@android:color/black"
         android:text="Crear una cuenta" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="18dp"
-        android:layout_marginTop="35dp"
-        android:gravity="center"
-        android:textColor="@android:color/black"
-        android:textColorLink="@android:color/holo_blue_light"
-        android:text="Condiciones del servicio" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="18dp"
-        android:layout_margin="10dp"
-        android:gravity="center"
-        android:textColor="@android:color/black"
-        android:textColorLink="@android:color/holo_blue_light"
-        android:text="Políticas de privacidad" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="18dp"
-        android:gravity="center"
-        android:textColor="@android:color/black"
-        android:textColorLink="@android:color/holo_blue_light"
-        android:text="Tus preferencias de privacidad" />
-
-    <CheckBox
-        android:id="@+id/Terminos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="18dp"
-        android:layout_margin="25dp"
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
         android:layout_gravity="center"
-        android:text="Acepto" />
+        app:srcCompat="@drawable/huella" />
 
-    <Button
-        android:id="@+id/Salir"
-        android:layout_width="133dp"
-        android:layout_height="48dp"
-        android:textSize="18dp"
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
         android:layout_gravity="center"
-        android:backgroundTint="@android:color/black"
-        android:text="Salir" />
+        android:textSize="20dp"
+        android:text="Inicio Dactilar" />
 
 </LinearLayout>

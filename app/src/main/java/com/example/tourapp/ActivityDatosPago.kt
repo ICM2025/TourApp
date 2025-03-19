@@ -1,21 +1,21 @@
 package com.example.tourapp
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.tourapp.databinding.ActivityDetallesUsuarioBinding
+import com.example.tourapp.databinding.ActivityDatosPagoBinding
 
-class DetallesUsuarioActivity : AppCompatActivity() {
+class ActivityDatosPago : AppCompatActivity() {
 
-    private lateinit var binding: ActivityDetallesUsuarioBinding
+    private lateinit var binding : ActivityDatosPagoBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityDetallesUsuarioBinding.inflate(layoutInflater)
+        binding = ActivityDatosPagoBinding.inflate(layoutInflater)
         setContentView(binding.root)
-    }
 
+
+    }
 }
