@@ -12,7 +12,7 @@
     <ImageView
         android:layout_width="180dp"
         android:layout_height="180dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="40dp"
         android:layout_gravity="center"
         android:src="@drawable/logotourapp" />
 
@@ -23,12 +23,12 @@
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:textColor="@android:color/black"
-        android:textSize="45dp"
+        android:textSize="30dp"
         android:textStyle="bold"
         android:text="Crear Cuenta" />
 
     <EditText
-        android:id="@+id/editNombre"
+        android:id="@+id/crearNombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -38,7 +38,7 @@
         android:inputType="text" />
 
     <EditText
-        android:id="@+id/editUsuario"
+        android:id="@+id/crearUsuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -54,12 +54,6 @@
         android:orientation="horizontal"
         android:padding="10dp">
 
-        <Spinner
-            android:id="@+id/spinnerID"
-            android:layout_width="10dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.4"
-            android:entries="@array/tipo_id_options" />
 
         <EditText
             android:id="@+id/ID"
@@ -68,6 +62,14 @@
             android:gravity="center"
             android:hint="Número de ID"
             android:inputType="text" />
+
+        <Spinner
+            android:id="@+id/spinnerID"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:entries="@array/tipo_id_options" />
+
     </LinearLayout>
 
 
@@ -103,37 +105,10 @@
         android:hint="Confirmar Contraseña"
         android:inputType="textPassword" />
 
-
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:layout_gravity="center"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:textColor="@color/black"
-            android:textSize="16dp"
-            android:text="¿Ya tienes una cuenta?" />
-
-        <TextView
-            android:id="@+id/iniciarSesion"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:textColor="@color/link"
-            android:textSize="16dp"
-            android:text="Iniciar sesión" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:layout_gravity="center"
         android:orientation="horizontal">
 
