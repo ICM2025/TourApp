@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#204959"
+    tools:context=".DetallesUsuarioActivity">
+
+
+    <!--Imagen Perfil -->
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <!--Nombre -->
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Nombre Usuario"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/profileImage"
+        app:layout_constraintTop_toTopOf="@id/profileImage"
+        app:layout_constraintBottom_toBottomOf="@id/profileImage"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="30dp"/>
+
+    <!--Nombre Peerfil -->
+    <TextView
+        android:id="@+id/tv_profileInfo"
+        android:layout_width="200sp"
+        android:layout_height="50dp"
+        tools:text="Perfil: Usuario\nEmail:Correo@ejemplo.com\nTeléfono: 1111111"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/profileImage"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="70dp"/>
+
+    <!-- Botón Editar -->
+    <ImageButton
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/tv_profileInfo"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="70dp"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+
+    <!--Menu-->
+    <LinearLayout
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_profileInfo"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_navegar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Navegador                                                      >"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_maps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mapas                                                             >"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_suggests"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sugerencias                                                   >"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            />
+    </LinearLayout>
+
+
+    <!--Mejorar Plan-->
+    <TextView
+        android:id="@+id/tv_getBetterPlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mejora tu plan"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/menu"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/help"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:text="Ayuda"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_getBetterPlan"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/Out"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Salir"
+        app:layout_constraintTop_toBottomOf="@id/help"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="15dp"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,23 +6,21 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.tourapp.databinding.ActivityIniciarSesionBinding
+import com.example.tourapp.databinding.ActivityDetallesUsuarioBinding
 
-class IniciarSesionActivity : AppCompatActivity() {
+class DetallesUsuarioActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityIniciarSesionBinding
+    private lateinit var binding: ActivityDetallesUsuarioBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityIniciarSesionBinding.inflate(layoutInflater)
+        binding = ActivityDetallesUsuarioBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.Confirmar.setOnClickListener {
-            val a = Intent(baseContext, DetallesUsuarioActivity::class.java)
-            startActivity(a)
+        binding.tvNavegar.setOnClickListener {
+            val intent = Intent(this, NavegadorActivity::class.java)
+            startActivity(intent)
         }
-
-
-
     }
+
 }

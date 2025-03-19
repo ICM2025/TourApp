@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#204959"
+    tools:context=".NavegadorActivity">
+
+    <!--Logo-->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="290dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/logotourapp"
+        tools:layout_editor_absoluteY="116dp" />
+
+    <TextView
+        android:id="@+id/tv_piensasViajar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Dónde Piensas Viajar?"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/et_busqueda"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:hint="Quisiera ir a un sitio exótico!"
+        android:background="@color/white"
+        android:padding="12dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_piensasViajar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <Spinner
+        android:id="@+id/planes"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:paddingVertical="8dp"
+        app:layout_constraintTop_toBottomOf="@id/et_busqueda"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="15dp" />
+
+    <Spinner
+        android:id="@+id/ubicacion"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:paddingVertical="8dp"
+        app:layout_constraintTop_toBottomOf="@id/planes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="15dp" />
+
+    <Spinner
+        android:id="@+id/precios"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:paddingVertical="8dp"
+        app:layout_constraintTop_toBottomOf="@id/ubicacion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/buscar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:backgroundTint="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/precios"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="120dp"
+        />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
