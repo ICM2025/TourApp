@@ -4,7 +4,7 @@
 **TourApp** es una aplicación móvil diseñada para viajeros que desean compartir sus experiencias, descubrir destinos recomendados y conectarse con otros aventureros o guías locales. Combina lo mejor de redes sociales y plataformas de turismo para ofrecer una experiencia única en la planificación y exploración de viajes.
 
 ### 🏕️ Características Principales:
-- 📸 **Red social de viajes:** Comparte fotos, videos y álbumes de tus aventuras.
+- 📸 **Comunidad de viajes:** Comparte fotos, videos y álbumes de tus aventuras.
 - 🗺️ **Mapa colaborativo de viajeros:** Descubre rutas y recomendaciones de otros turistas.
 - 🎟️ **Compra de planes turísticos:** Accede a experiencias locales y económicas.
 - 🤝 **Conexión con viajeros y guías locales:** Chats en tiempo real y contratación de guías.
