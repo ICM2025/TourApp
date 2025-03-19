@@ -1,5 +1,6 @@
 package com.example.tourapp
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -15,5 +16,11 @@ class DetallesUsuarioActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityDetallesUsuarioBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.tvNavegar.setOnClickListener {
+            val intent = Intent(this, NavegadorActivity::class.java)
+            startActivity(intent)
+        }
     }
+
 }
