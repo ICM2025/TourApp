@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="85dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logotourapp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:text="TourApp" />
+
+    <Button
+        android:id="@+id/Ingresar"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:textSize="18dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@android:color/black"
+        android:text="Ingresar" />
+
+    <Button
+        android:id="@+id/CrearCuenta"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:textSize="18dp"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@android:color/black"
+        android:text="Crear una cuenta" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textColorLink="@android:color/holo_blue_light"
+        android:text="Condiciones del servicio" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textColorLink="@android:color/holo_blue_light"
+        android:text="Políticas de privacidad" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textColorLink="@android:color/holo_blue_light"
+        android:text="Tus preferencias de privacidad" />
+
+    <CheckBox
+        android:id="@+id/Terminos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_margin="25dp"
+        android:layout_gravity="center"
+        android:text="Acepto" />
+
+    <Button
+        android:id="@+id/Salir"
+        android:layout_width="133dp"
+        android:layout_height="48dp"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@android:color/black"
+        android:text="Salir" />
+
+</LinearLayout>

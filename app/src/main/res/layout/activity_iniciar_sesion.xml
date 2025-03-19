@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".IniciarSesionActivity">
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logotourapp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:text="Iniciar sesión" />
+
+    <EditText
+        android:id="@+id/editUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="80dp"
+        android:hint="Nombre de Usuario"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="30dp"
+        android:hint="Correo Electronico"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="30dp"
+        android:hint="Contraseña"
+        android:inputType="textPassword" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:text="No tienes cuenta?" />
+
+        <TextView
+            android:id="@+id/CrearCuenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/link"
+            android:textSize="15dp"
+            android:text="Crear Cuenta" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Confirmar"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textSize="15dp"
+        android:backgroundTint="@color/black"
+        android:text="Confirmar" />
+
+
+</LinearLayout>
