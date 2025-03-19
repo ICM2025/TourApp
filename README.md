@@ -4,7 +4,7 @@
 **TourApp** es una aplicación móvil diseñada para viajeros que desean compartir sus experiencias, descubrir destinos recomendados y conectarse con otros aventureros o guías locales. Combina lo mejor de redes sociales y plataformas de turismo para ofrecer una experiencia única en la planificación y exploración de viajes.
 
 ### 🏕️ Características Principales:
-- 📸 **Red social de viajes:** Comparte fotos, videos y álbumes de tus aventuras.
+- 📸 **Comunidad de viajes:** Comparte fotos, videos y álbumes de tus aventuras.
 - 🗺️ **Mapa colaborativo de viajeros:** Descubre rutas y recomendaciones de otros turistas.
 - 🎟️ **Compra de planes turísticos:** Accede a experiencias locales y económicas.
 - 🤝 **Conexión con viajeros y guías locales:** Chats en tiempo real y contratación de guías.
@@ -16,7 +16,7 @@
 ## 🚀 Instalación y Ejecución
 
 ### 🔧 Requisitos Previos
-- 📱 Android Studio (API 24 "Nougat"; Android 7.0)
+- 📱 Android Studio (Android 8.0 (Oreo, API 26)
 - 💻 Kotlin para el desarrollo de la app
 - 🎨 Figma para diseño y prototipado (Mockups)
 - 🔗 API de Google Maps para geolocalización
@@ -66,14 +66,18 @@
 ---
 
 ## 👥 Equipo de Desarrollo
-- 🚀 **Nombre del Desarrollador 1** - Backend & Firebase
-- 🎨 **Nombre del Desarrollador 2** - UI/UX & Diseño en Figma
-- 🏗️ **Nombre del Desarrollador 3** - Integración Google Maps API
+- 🚀 Carlos Rojas, Felipe Garrido, Arley bernal - Backend & Firebase
+- 🎨 Carlos Rojas, Christian Vargas, Johan - UI/UX & Diseño en Figma
+- 🏗️ Arley Bernal, Felipe Garrido - Integración Google Maps API
 
 ---
 
 ## 📬 Contacto y Contribución
-📩 Si deseas contribuir o tienes alguna sugerencia, contáctanos en [cevargas@javeriana.edu.co](mailto:cevargas@javeriana.edu.co)  
+📩 Si deseas contribuir o tienes alguna sugerencia, contáctanos en:
+
+-[cevargas@javeriana.edu.co](mailto:cevargas@javeriana.edu.co)  
+-[ce.rojas@javeriana.edu.co](mailto:ce.rojas@javeriana.edu.co)  
+
 📌 Para reportar problemas, usa la sección de [Issues](https://github.com/usuario/TourApp/issues) en GitHub.
 
 💡 **¡Explora el mundo con TourApp! 🌎✈️**

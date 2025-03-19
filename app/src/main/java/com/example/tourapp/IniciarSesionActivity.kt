@@ -22,7 +22,10 @@ class IniciarSesionActivity : AppCompatActivity() {
             startActivity(a)
         }
 
-
+        binding.CrearCuenta.setOnClickListener {
+            val intent = Intent(this, CrearCuentaActivity::class.java)
+            startActivity(intent)
+        }
 
     }
 }
