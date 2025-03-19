@@ -16,7 +16,7 @@
 ## 🚀 Instalación y Ejecución
 
 ### 🔧 Requisitos Previos
-- 📱 Android Studio (API 24 "Nougat"; Android 7.0)
+- 📱 Android Studio (Android 8.0 (Oreo, API 26)
 - 💻 Kotlin para el desarrollo de la app
 - 🎨 Figma para diseño y prototipado (Mockups)
 - 🔗 API de Google Maps para geolocalización
