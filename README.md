@@ -66,9 +66,9 @@
 ---
 
 ## 👥 Equipo de Desarrollo
-- 🚀 **Nombre del Desarrolladores encargados** - Carlos Rojas - Felipe Garrido - Arley bernal
-- 🎨 **Nombre del Desarrolladors encargados**  Carlos Rojas - Christian Vargas - Johan
-- 🏗️ **Nombre del Desarrolladors encargados** Arley Bernal- Felipe Garrido
+- 🚀 Carlos Rojas, Felipe Garrido, Arley bernal - Backend & Firebase
+- 🎨 Carlos Rojas, Christian Vargas, Johan - UI/UX & Diseño en Figma
+- 🏗️ Arley Bernal, Felipe Garrido - Integración Google Maps API
 
 ---
 
