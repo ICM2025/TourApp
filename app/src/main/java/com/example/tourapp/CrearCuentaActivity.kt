@@ -1,5 +1,6 @@
 package com.example.tourapp
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -15,6 +16,16 @@ class CrearCuentaActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityCrearCuentaBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.iniciarSesion.setOnClickListener {
+            val intent = Intent(this, IniciarSesionActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.Confirmar.setOnClickListener {
+            val a = Intent(baseContext, IniciarSesionActivity::class.java)
+            startActivity(a)
+        }
 
 
     }
