@@ -80,7 +80,6 @@
             android:layout_height="wrap_content"
             android:text="Navegador                                                      >"
             android:textColor="@color/white"
-            android:paintFlags = "Underline"
             android:padding="5dp"
             />
 
@@ -90,7 +89,6 @@
             android:layout_height="wrap_content"
             android:text="Mapas                                                             >"
             android:textColor="@color/white"
-            android:paintFlags = "Underline"
             android:padding="5dp"
             />
 
@@ -100,7 +98,6 @@
             android:layout_height="wrap_content"
             android:text="Sugerencias                                                   >"
             android:textColor="@color/white"
-            android:paintFlags = "Underline"
             android:padding="5dp"
             />
     </LinearLayout>
