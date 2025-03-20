@@ -6,25 +6,20 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.tourapp.databinding.ActivityIniciarSesionBinding
+import com.example.tourapp.databinding.ActivityRutaMapaBinding
 
-class IniciarSesionActivity : AppCompatActivity() {
+class ActivityRutaMapa : AppCompatActivity() {
 
-    private lateinit var binding: ActivityIniciarSesionBinding
+    private lateinit var binding: ActivityRutaMapaBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityIniciarSesionBinding.inflate(layoutInflater)
+        binding = ActivityRutaMapaBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.Confirmar.setOnClickListener {
+        binding.finalizar.setOnClickListener {
             val a = Intent(baseContext, InicioActivity::class.java)
             startActivity(a)
-        }
-
-        binding.CrearCuenta.setOnClickListener {
-            val intent = Intent(this, CrearCuentaActivity::class.java)
-            startActivity(intent)
         }
 
     }

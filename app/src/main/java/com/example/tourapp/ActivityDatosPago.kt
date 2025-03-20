@@ -6,26 +6,22 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.tourapp.databinding.ActivityIniciarSesionBinding
+import com.example.tourapp.databinding.ActivityDatosPagoBinding
 
-class IniciarSesionActivity : AppCompatActivity() {
+class ActivityDatosPago : AppCompatActivity() {
 
-    private lateinit var binding: ActivityIniciarSesionBinding
+    private lateinit var binding : ActivityDatosPagoBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityIniciarSesionBinding.inflate(layoutInflater)
+        binding = ActivityDatosPagoBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.Confirmar.setOnClickListener {
-            val a = Intent(baseContext, InicioActivity::class.java)
+            val a = Intent(baseContext, ActivityPagoExitoso::class.java)
             startActivity(a)
         }
 
-        binding.CrearCuenta.setOnClickListener {
-            val intent = Intent(this, CrearCuentaActivity::class.java)
-            startActivity(intent)
-        }
 
     }
 }

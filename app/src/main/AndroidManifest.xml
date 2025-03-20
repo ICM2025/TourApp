@@ -13,6 +13,27 @@
         android:theme="@style/Theme.TourApp"
         tools:targetApi="31">
         <activity
+            android:name=".ActivityMejorarPlan"
+            android:exported="false" />
+        <activity
+            android:name=".EditarPerfilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityRutaMapa"
+            android:exported="false" />
+        <activity
+            android:name=".Activityinfoplan"
+            android:exported="false" />
+        <activity
+            android:name=".InicioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityPagoExitoso"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityDatosPago"
+            android:exported="false" />
+        <activity
             android:name=".NavegadorActivity"
             android:exported="false" />
         <activity

@@ -6,19 +6,18 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.tourapp.databinding.ActivityDetallesUsuarioBinding
+import com.example.tourapp.databinding.ActivityMejorarPlanBinding
 
-class DetallesUsuarioActivity : AppCompatActivity() {
-
-    private lateinit var binding: ActivityDetallesUsuarioBinding
+class ActivityMejorarPlan : AppCompatActivity() {
+    private lateinit var binding: ActivityMejorarPlanBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityDetallesUsuarioBinding.inflate(layoutInflater)
+        binding = ActivityMejorarPlanBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.editarUsuario.setOnClickListener {
-            val a = Intent(baseContext, EditarPerfilActivity::class.java)
+        binding.btnPagar.setOnClickListener {
+            val a = Intent(baseContext, ActivityDatosPago::class.java)
             startActivity(a)
         }
     }
