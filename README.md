@@ -67,7 +67,7 @@
 
 ## 👥 Equipo de Desarrollo
 - 🚀 Carlos Rojas, Felipe Garrido, Arley bernal - Backend & Firebase
-- 🎨 Carlos Rojas, Christian Vargas, Johan - UI/UX & Diseño en Figma
+- 🎨 Carlos Rojas y Christian Vargas - UI/UX & Diseño en Figma
 - 🏗️ Arley Bernal, Felipe Garrido - Integración Google Maps API
 
 ---
