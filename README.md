@@ -16,7 +16,6 @@ Estamos enfocados en brindar a cada uno de nuestros usuarios una experiencia muc
 - **Felipe Garrido Flores** - Apasionado por la tecnología, con interés en diseño web y experiencia en JavaScript, CSS y HTML.
 - **Cristian Eduardo Vargas Cuadros** - Amante de la cocina, el ajedrez y el ejercicio. Disfruta actividades que combinan creatividad, estrategia y un estilo de vida activo.
 - **Carlos Eduardo Rojas Martínez** - Apasionado por la música, los juegos y la programación. Le gusta la creatividad, el entretenimiento y la lógica.
-- **Johan Sebastian López Arciniegas** - Disfruta del ejercicio y el fútbol, valorando el deporte como una forma de superación personal.
 - **Arley Bernal Muñetón** - Amante de la música, los juegos, los gatos y la comida. Disfruta de actividades que combinan entretenimiento y placeres cotidianos.
 
 ## Funcionalidades
@@ -31,8 +30,7 @@ Estamos enfocados en brindar a cada uno de nuestros usuarios una experiencia muc
 
   ## Documentos
 - **Presentación:** [Ver en Canva](https://www.canva.com/design/DAGd42_ct8k/WpE7V8ypIiq2_ue_LymiCw/edit)  
-- **Mock-ups:** [Ver en Figma](https://www.figma.com/design/SRrPYM1wLjeG0b1FAc6Vyj/TourApp?node-id=0-1&p=f&t=zOZikukWfbIwCbTJ-0)  
-- **Diagramas:** [Ver diagrama]()
+- **Mock-ups:** [Ver en Figma](https://www.figma.com/design/SRrPYM1wLjeG0b1FAc6Vyj/TourApp?node-id=0-1&p=f&t=zOZikukWfbIwCbTJ-0) 
 
   ## Contacto
 - **Correo Electrónico:** f-garriddo@javeriana.edu.co  
