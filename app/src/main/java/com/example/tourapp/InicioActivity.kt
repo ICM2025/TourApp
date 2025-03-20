@@ -27,7 +27,7 @@ class InicioActivity : AppCompatActivity() {
         }
 
         binding.Plan.setOnClickListener {
-            val a = Intent(baseContext, ActivityPagoExitoso::class.java)
+            val a = Intent(baseContext, ActivityMejorarPlan::class.java)
             startActivity(a)
         }
     }

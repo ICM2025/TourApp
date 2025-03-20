@@ -39,7 +39,7 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/Vamos"
         android:layout_width="180dp"
         android:layout_height="60dp"
         android:textSize="18dp"

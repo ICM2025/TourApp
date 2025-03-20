@@ -16,6 +16,10 @@ class DetallesUsuarioActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityDetallesUsuarioBinding.inflate(layoutInflater)
         setContentView(binding.root)
-    }
 
+        binding.editarUsuario.setOnClickListener {
+            val a = Intent(baseContext, EditarPerfilActivity::class.java)
+            startActivity(a)
+        }
+    }
 }
