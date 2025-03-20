@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TourApp</string>
+    <string-array name="tipo_id_options">
+        <item>Tipo</item>
+        <item>Cédula</item>
+        <item>Pasaporte</item>
+        <item>Tarjeta de Identidad</item>
+    </string-array>
+    <string name="machu_picchu"> Machu Picchu</string>
+</resources>
